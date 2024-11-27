@@ -1,4 +1,3 @@
-# Import required libraries
 import pandas as pd
 import dash
 from dash import html, dcc
@@ -82,8 +81,8 @@ def update_pie_chart(selected_site):
 )
 def update_scatter_chart(selected_site, payload_range):
     low, high = payload_range
-    filtered_df = spacex_df[
-        (spacex_df['Payload Mass (kg)'] >= low) & 
+    filtered_df = spacex_df[(
+        spacex_df['Payload Mass (kg)'] >= low) & 
         (spacex_df['Payload Mass (kg)'] <= high)
     ]
     
@@ -100,5 +99,4 @@ def update_scatter_chart(selected_site, payload_range):
     )
     return fig
 
-if __name__ == '__main__':
-    app.run(port=5000)
+# Do not include `app.run_server()` in production
