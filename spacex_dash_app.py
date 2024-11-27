@@ -99,4 +99,5 @@ def update_scatter_chart(selected_site, payload_range):
     )
     return fig
 
-# Do not include `app.run_server()` in production
+if __name__ == "__main__":
+    app.run(port=5000)
