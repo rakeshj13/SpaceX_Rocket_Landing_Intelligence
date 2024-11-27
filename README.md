@@ -2,9 +2,8 @@
 
 SpaceX Rocket Landing Intelligence leverages machine learning algorithms to predict the success of rocket landings, a key factor in improving the reusability of rockets and reducing the overall cost of space missions. By analyzing historical launch data from SpaceX, the project builds and evaluates several classification models to forecast whether a rocket landing will be successful or fail.
 
-The project uses multiple machine learning algorithms including Logistic Regression, Support Vector Machines (SVM), Decision Trees, and K-Nearest Neighbors (KNN) to predict landing outcomes based on various factors such as the rocket’s specifications, launch site, and weather conditions.
 
-###Fetching and Analyzing SpaceX Launch Data
+### Fetching and Analyzing SpaceX Launch Data
 
 This task focuses on extracting data from the **SpaceX API**, cleaning the dataset, and analyzing key insights. The data is fetched using the endpoint `https://api.spacexdata.com/v4/launches/past` and then converted into a **Pandas DataFrame** for further exploration and manipulation.
 
@@ -15,7 +14,7 @@ This task focuses on extracting data from the **SpaceX API**, cleaning the datas
 2. **Data Cleaning and Exploration**:  
    After loading the data, it is cleaned by handling missing or irrelevant information. The dataset is then explored to identify patterns, such as factors influencing landing success, including weather conditions, rocket specifications, and launch site data.
 
-###Extracting Column Names from Wikipedia Table (Web Scraping)
+### Extracting Column Names from Wikipedia Table (Web Scraping)
 
 This task demonstrates the process of **web scraping** to extract the column names from an HTML table on the Wikipedia page listing Falcon 9 and Falcon Heavy launches. In this task, the **requests** library is used to fetch the page content, and **BeautifulSoup** is utilized to parse the HTML and extract the data.
 
