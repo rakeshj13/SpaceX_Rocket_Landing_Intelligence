@@ -39,7 +39,7 @@ This section of the project focuses on visualizing SpaceX launch data using inte
 
 An interactive map is created using the **Folium** library to analyze the proximity of different SpaceX launch sites. The map provides a geographical representation of launch sites and helps visualize their locations relative to each other.
 
-![Launch Site Proximity](images/pie_chart.png)
+![Launch Site Proximity](images/launch_sites.png)
 ![Launch Success and Failure](images/succuess_and_failed.png)
 
 #### 2. **Interactive Dashboard with Plotly Dash**
