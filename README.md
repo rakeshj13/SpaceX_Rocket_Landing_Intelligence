@@ -46,7 +46,6 @@ An interactive map is created using the **Folium** library to analyze the proxim
 
 An interactive dashboard is built using **Plotly Dash** to visualize SpaceX launch statistics. The dashboard includes pie charts and scatter plots to analyze the distribution of successful and failed launches, payload types, and other relevant metrics.
 
-![Launch Stats](images/launch_stats.png)
 ![Web Dashboard](images/web_dash_board.png)
 
 ### Machine Learning Models for Rocket Landing Prediction
