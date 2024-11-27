@@ -100,4 +100,5 @@ def update_scatter_chart(selected_site, payload_range):
     )
     return fig
 
-# Note: Do not call app.run_server() when deploying with Gunicorn
+if __name__ == '__main__':
+    app.run_server()
